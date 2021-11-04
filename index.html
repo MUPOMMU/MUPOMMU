@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<header id="home">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="logo.png" >	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>MUPO | Home</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href=logo.png>
+		<script src="js/mailto.js" defer></script>
+		
+    <!-- OR -->
+
+    <script src="js/mailto.js" async="false"></script>
+			
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+		</header>
+	</head>
+
+	<body class="header-collapse">
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+				  <a href="index.html" id="branding">
+					 <img src="dummy/logo.png" alt="Site Title" width="161" height="120">
+					</a> <!-- #branding -->
+					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+							<li class="menu-item"><a href="about.html">About Us</a></li>
+							<li class="menu-item"><a href="gallery.html">Gallery</a></li>
+							<li class="menu-item"><a href="video.html">Video</a></li>
+							<li class="menu-item"><a href="news.html">News</a></li>
+							<li class="menu-item"><a href="contact.html">Contact Us</a></li>
+						</ul> <!-- .menu -->
+				  </nav> <!-- .main-navigation -->
+					<div class="mobile-menu"></div>
+			  </div>
+			</header> <!-- .site-header -->
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "110264563646777");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>			
+			<div class="hero">
+				<div class="slider">
+					<ul class="slides">
+						<li class="lazy-bg" data-background="dummy/slide-1.jpg">
+							<div class="container">
+								<h3 class="slide-title">Multimedia University Philharmonic Orchestra</h3>
+								<h4 class="slide-subtitle"><b>Ohana Means Family</b></h4>
+								<!--p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p-->
+
+								<a href="#content" class="button cut-corner">Read More</a>
+							</div>
+						</li>
+						  
+						<!--li class="lazy-bg" data-background="dummy/slide-1.jpg">
+							<div class="container">
+									<h3 class="slide-title">Multimedia University Philharmonic Orchestra</h3>
+									<h4 class="slide-subtitle">Ohana Means Family</h4>
+									<!--p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</>
+
+									<a href="#content" class="button cut-corner">Read More</a>
+							</div>
+						</li>
+						<li class="lazy-bg" data-background="dummy/slide-1.jpg">
+							<div class="container">
+									<h2 class="slide-title">Multimedia University Philharmonic Orchestra</h2>
+									<h3 class="slide-subtitle">Ohana Means Family</h3>
+									<!--p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Fugiat aliquid minus nemo sed est.</p>
+
+									<a href="#content" class="button cut-corner">Read More</a>
+							</div>
+						</li-->
+						    
+					</ul>
+				</div>
+			</div>
+			<section id="content">
+			<main class="main-content">
+				<!--div class="fullwidth-block testimonial-section">
+					<div class="container">
+						<div class="quote-slider">
+							<ul class="slides">
+
+								<li>
+									<blockquote>
+										<p>“Music is the universal language of mankind.”</p>
+										<cite>Henry Wadsworth Longfellow</cite>
+									</blockquote>
+								</li>
+								
+								 <li>
+									<blockquote>
+										<p>“The music is not in the notes, but in the silence between.”</p>
+										<cite>Wolfgang Amadeus Mozart</cite>
+										<span></span>
+									</blockquote>
+								</li>
+								<li>
+									<blockquote>
+										<p>"Iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
+										<cite>John Smith</cite>
+										<span>C</span>
+									</blockquote>
+								</li>
+							</ul>
+						</div>
+					</div>
+			
+				</div> <!-- .testimonial-section -->
+
+				
+				<div class="fullwidth-block upcoming-event-section" data-bg-color="#191919">
+					<div class="container">
+						<header class="section-header">
+							<h2 class="section-title">Past Activity</h2>
+
+							<div class="event-nav">
+								<a class="prev" id="event-prev" href="#"><i class="fa fa-caret-left"></i></a>
+	    						<a class="next" id="event-next" href="#"><i class="fa fa-caret-right"></i></a>
+							</div> <!-- .event-nav -->
+
+						</header> <!-- .section-header -->
+						<div class="event-carousel">
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="month"><b>OCT</b></div>
+									<span class="month"><b>2021</b></span></div>
+								<h2 class="entry-title"><a href="#"><b>MMU Award - Performance</b></a></h2>
+								<p>The team had been invited to perform virtually during MMU Award on 9th October 2021</p>
+							</div> <!-- .event -->
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="month"><b>Sep</b></div>
+									<span class="month"><b>2021</b></span>
+								</div>
+								<h2 class="entry-title"><a href="#"><b>Law Talent Show</b></a></h2>
+								<p>The team had participated in MULS Law Talent Show.</p>
+							</div> <!-- .event -->
+							
+						  <div class="event">
+								<div class="entry-date">
+									<div class="month"><b>2020 - 2021</b></div>
+									<span class="month"><b></b></span>
+								</div>
+								<h2 class="entry-title"><a href="#"><b>Stay At Home Collab</b></a></h2>
+								<p style="text-align: justify;">The team has organized series of online collaborations with musicians all over the country to encourage musicians to practice at home during the Covid-19 pandemic.</p>
+							</div> <!-- .event -->
+
+							<div class="event">
+								<div class="entry-date">
+									<div class="month"><b>2019 - 2020</b></div>
+									<span class="month"><b></b></span>
+								</div>
+								<h2 class="entry-title"><a href="#"><b>Violin Workshop</b></a></h2>
+								<p style="text-align: justify;">The team has organized Violin Workshop in Semester 1 & 2, 2019/2020. The trainers conducted both theory and practical teaching during the workshop. A total of 50 participants have joined us for the workshop.</p>
+							</div> <!-- .event -->
+							
+							
+							<div class="event">
+								<div class="entry-date">
+									<div class="month">Jan</div>
+									<span class="month">2020</span>
+								</div>
+								<h2 class="entry-title" ><a href="#"><b>Music Trip</b></a></h2>
+								<p style="text-align: justify;">The team has organized a Music Trip to Kuala Lumpur in January 2020. The
+participants visited the KL Art Gallery and had a fruitful exchange session
+with the Triplet Orchestra.</p>
+							</div> <!-- .event -->
+							
+						</div> <!-- .event-carousel -->
+					</div> <!-- .container -->
+				</div> <!-- .upcoming-event-section -->
+
+				<div class="fullwidth-block why-chooseus-section">
+					<div class="container">
+						<h2 class="section-title">Why join Orchestra?</h2>
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="feature">
+									<figure class="cut-corner">
+										<img src="/dummy/Photo/Performance/LGT01.JPG" alt="">
+									</figure>
+									<h3 class="feature-title"><strong>You make lasting connections</strong></h3>
+									<p style="text-align: justify;">As you train with the school orchestra, you develop bonds with the members. Like any other peer group, all of you have similar likes and are unified in a similar interest. Often, performers will establish their own small ensembles and groups within the group.</p>
+								</div> <!-- .feature -->
+							</div>
+							<div class="col-md-4">
+								<div class="feature">
+									<figure class="cut-corner">
+									  <img src="dummy/Photo/Trip/Trip02.jpg" alt="">
+									</figure>
+									<h3 class="feature-title"><b>Music is a healthy channel for your emotions</b></h3>
+									<p style="text-align: justify;">Being a student brings endless amount of pressure in both your home and school environment. Whether you’re feeling anxious about your grades, your crush, or a family situation, music offers an incredible channel for your thoughts and moods. Your state of mind will encounter extreme relaxation by joining variety of events in MUPO.</p>
+								</div> <!-- .feature -->
+							</div>
+							<div class="col-md-4">
+								<div class="feature">
+									<figure class="cut-corner">
+										<img src="dummy/Photo/Workshop/Workshop03.jpg" alt="">
+									</figure>
+									<h3 class="feature-title"><b>Meet New People</b></h3>
+									<p style="text-align: justify;">Whether you’re new to an area or a longtime resident, you’re bound to meet new people when you join your community orchestra and the best part is that these people share a common interest – a love for playing music. Some may be music professionals like performers and educators. Others may be amateurs with non-music day jobs. But all come together to practice and perform the thing that they love. You’ll not only be able to socialize with others who can relate to your love of classical music, but you may form new friendships and find new contacts who can help you in other areas of your life</p>
+								</div> <!-- .feature -->
+							</div>
+						</div>
+					</div> <!-- .container -->
+				</div> <!-- .why-chooseus-section -->
+			</main> <!-- .main-content -->
+</section>
+			<footer class="site-footer">
+				<div class="container">
+					<!--img src="dummy/logo-footer.png" alt="Site Name"-->
+					
+					<address>
+						<p>Multimedia University Philharmonic Orchestra<br>Multimedia University, Melaka Campus<br><a href="tel:0169883878">(60)16 9883878</a> <br> <a class="mailtoui" href="mailto:mupo.mmu@gmail.com">mupo.mmu@gmail.com</a></p> 
+					</address>
+					<form action="https://forms.gle/rHJrLu3jM5vYpgoNA" class="newsletter-form" target="_blank">
+						<!--input type="email" placeholder="Enter your email to join newsletter..."-->
+						<input type="submit" class="button cut-corner" value="Join Us">
+					</form> <!-- .newsletter-form -->
+					
+					<div class="social-links">
+						<a href="https://www.facebook.com/mupommu" target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com/mupommu/" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.youtube.com/channel/UCTBrLgqkxkAX9atVUD2fTfQ" target="_blank"><i class="fa fa-youtube-play"></i></a>
+						<a class="mailtoui" href="mailto:mupo.mmu@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+						<!--a href="#"><i class="fa fa-google-plus"></i></a-->
+						<!--a href="#"><i class="fa fa-pinterest"></i></a-->
+					</div> <!-- .social-links -->
+					<!--a href="#home" class="icon-up-open"></a>
+					<div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div-->
+					<p class="copy"> &copy; Copyright 2021 MUPOMMU | All right reserved</p>
+				</div>
+			</footer> <!-- .site-footer -->
+
+		</div> <!-- #site-content -->
+
+		<script src="js/jquery-1.11.1.min.js"></script>		
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/mailto.js"></script>
+		
+	</body>
+
+</html>
